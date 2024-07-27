@@ -457,7 +457,7 @@ button:focus {
   .custom-nav {
     margin-top: 0px;
     padding: 10px 0px !important;
-    background-color: #fff !important;
+   
   }
   .custom-nav .navbar-nav li a {
     margin: 0 0px;
@@ -506,10 +506,7 @@ button:focus {
   .home-bg-slider .carousel-item {
     padding: 170px 0 110px 0;
   }
-  .h-100vh,
-  .home-bg-slider .carousel-item {
-    height: auto;
-  }
+
   .scroll_down {
     display: none;
   }
