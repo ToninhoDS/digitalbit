@@ -11,6 +11,7 @@ gsap.utils.toArray(".section").forEach((section, i) => {
       }
     });
   });
+  
   document.addEventListener("DOMContentLoaded", function() {
     const images = document.querySelectorAll(".img-direita-animada, .img-esquerda-animada");
     
