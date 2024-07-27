@@ -11,3 +11,21 @@ gsap.utils.toArray(".section").forEach((section, i) => {
       }
     });
   });
+  document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll(".img-direita-animada, .img-esquerda-animada");
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+    
+    images.forEach(image => {
+        observer.observe(image);
+    });
+});

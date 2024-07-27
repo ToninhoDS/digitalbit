@@ -168,3 +168,6 @@ li.active {
 .img-esquerda-animada {
   transform: translateX(-100%);
 }
+main img{
+  padding:20px 0 20px 0;
+}
