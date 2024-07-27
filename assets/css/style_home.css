@@ -146,13 +146,12 @@ li.active {
 /* Animações para as imagens */
 .img-direita-animada, .img-esquerda-animada {
   position: relative;
-  opacity: 0;
   width: 800px;
   height: 480px;
-  transition: opacity 1s ease-out, transform 1s ease-out;
+  /* transition: opacity 1s ease-out, transform 1s ease-out; */
 }
 
-.img-direita-animada.show {
+/* .img-direita-animada.show {
   opacity: 1;
   transform: translateX(0);
 }
@@ -168,16 +167,17 @@ li.active {
 
 .img-esquerda-animada {
   transform: translateX(-100%);
-}
+} */
 
 main img {
   padding: 20px 0;
+  margin-bottom: 10px;
 }
 
 /* Ajustes de imagens para telas menores */
 @media screen and (max-width: 768px) {
   .img-direita-animada, .img-esquerda-animada {
-    width: 100%;
+    width: 480px;
     height: auto;
   }
 }
