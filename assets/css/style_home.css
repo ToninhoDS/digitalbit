@@ -90,7 +90,8 @@ main {
 
 
 
-li {
+.progress-bar li {
+  z-index: 999;
   list-style: none;
   width: 1rem;
   height: 1rem;
