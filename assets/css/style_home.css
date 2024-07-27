@@ -59,6 +59,7 @@ main {
 }
 
 #sidebar {
+  z-index: 999;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -70,6 +71,7 @@ main {
 }
 
 .progress-bar {
+  z-index: 999;
   position: fixed;
   display: flex;
   flex-direction: column;
